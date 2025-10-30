@@ -4,7 +4,7 @@ public class NumWords {
 	    // Replace this comment with your code
 		String number = args[0];
 		if (number.length() == 3){
-			System.out.println(number.charAt(0) + " hundreds, " + number.charAt(1) + " tens, and " + number.charAt(2) + " ones."  );
+			System.out.println("" + number.charAt(0) + " hundreds, " + number.charAt(1) + " tens, and " + number.charAt(2) + " ones."  );
 		}
 		if (number.length() == 2){
 			System.out.println("0 hundreds, " + number.charAt(0) + " tens, and " + number.charAt(1) + " ones."  );
