@@ -9,7 +9,7 @@ public class Bill3 {
 
 		double doubleTotalSum = Double.parseDouble(strTotalSum);
 		double personalAmount = Math.ceil(doubleTotalSum / 3);
-		System.out.println("Dear "+ name1 + ", " + name2 + ", and " + name3 + ": pay " + personalAmount + " Shekels each.");
+		System.out.println("Dear "+ name3 + ", " + name2 + ", and " + name1 + ": pay " + personalAmount + " Shekels each.");
 
 	    // Replace this comment with the rest of your code   
 	}
