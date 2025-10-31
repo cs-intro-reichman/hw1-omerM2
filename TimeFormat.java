@@ -16,14 +16,20 @@ public class TimeFormat {
 
 		Boolean pm = false;
 
-		if(hours >= 12){
-			pm = true ;
-			if(hours >= 13){
-				hours = hours - 12;
-				System.out.println("" + hours + ":" + minutes + " PM");
-			}
-		}else{
-			System.out.println("" + hours + ":" + minutes + " AM");
-		}
+		String mm = String.format("%02d", minutes);
+
+
+if (hours >= 12) {
+    pm = true;
+    if (hours >= 13) {
+        hours = hours - 12;
+    }
+    System.out.println("" + hours + ":" + mm + " PM");
+}else{
+	    System.out.println("" + hours + ":" + mm + " AM");
+
+}
+
+		
 	}
 }
