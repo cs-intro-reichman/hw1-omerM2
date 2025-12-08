@@ -7,7 +7,7 @@ public class Bill3 {
 		String name3 = args[2];
 		String stringSum = args[3];
 		double sum = Double.parseDouble(stringSum);
-		sum = Math.ceil(sum);
+		sum = Math.ceil(sum/3);
 
 
 
